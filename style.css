@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0;
+  font-family: "Red Rose", cursive;
+}
+
+body{
+  background-image:url(assets/pexels-maxyne-barcel-10402282\ 1.png) ;
+  background-size: 100%;
+  background-color: #0c1925c2;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-blend-mode: darken;
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.navbar{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-around;
+  /* margin-top: 30px; */
+}
+
+section{
+  display: flex;
+  /* background-color: blueviolet; */
+  flex-direction: row;
+  flex: 1; 
+  justify-content: space-around; 
+}
+
+.list{
+
+  margin-left: 20px;
+  display: flex;
+   flex-direction: row;
+  justify-content: space-around;
+}
+
+.list-item{
+  margin-top: 40px;
+  margin-left: 50px;
+  display: flex; 
+  font-size: 20px;
+  color: #EDC126;
+  flex-direction: row;
+  /* flex: 1; */
+  justify-content: space-around;
+  font-weight: 400;
+} 
+ .button-small{
+  border: none;
+  margin-top: 30px;
+  background-color: #FF6263;
+  color: #fff;
+  font-size: 30px;
+  padding: 10px 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.logo{
+  width: 7vw;
+  margin-top: 30px;
+}
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+.hero{
+  position: relative;
+  /* background-color: #ffee00; */
+  text-align: center;
+}
+h1{
+
+   font-size: 100px;
+  color: #EDC126;
+  text-align: center;
+  font-weight: 900; 
+  margin-top: 50px;
+  margin-left:  20%;
+  margin-right: 20%;
+}
+.button-large{
+  border: none;
+  position: relative;
+  background-color: #FF6263;
+  color: #fff;
+  margin-left: 18%;
+  margin-top: 30px;
+  font-size: 70px;
+  padding: 15px 60px;
+  font-size: 20px;
+  cursor: pointer; 
+}
+.bottom{
+  margin: 20px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+.bottom >div >img{
+  width: 80%;
+}
+.list-item:hover{
+  background-color: none;
+  color: #fff;
+  box-shadow: inset;
+  transition: 200ms ease-in-out;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #0c1925c2;
+  color: #fff;
+  box-shadow: inset;
+  transition: 200ms ease-in-out;
+  cursor: pointer;
+}
